@@ -20,7 +20,7 @@ function preload()
 }
 
 function setup() {
-	canvas =  createCanvas(600, 500);
+	canvas =  createCanvas(500, 500);
 	canvas.center();
 
 	video = createCapture(VIDEO);
@@ -72,7 +72,7 @@ function draw() {
 		if(song1_status == false)
 		{
 			song1.play();
-			document.getElementById("song").innerHTML = "Playing - Lover";
+			document.getElementById("song").innerHTML = "Playing - Song 1";
 		}
 	}
 
@@ -85,7 +85,7 @@ function draw() {
 		if(song2_status == false)
 		{
 			song2.play();
-			document.getElementById("song").innerHTML = "Playing - New Rules";
+			document.getElementById("song").innerHTML = "Playing - Song 2";
 		}
 	}
 
